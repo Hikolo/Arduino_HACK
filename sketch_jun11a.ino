@@ -30,6 +30,6 @@ void setup()
 void loop()
 {
   Serial.print("Current temperature is ");
-  Serial.println(temperature);
+  Serial.println(getTemp(0));
   delay(1000);
  }
